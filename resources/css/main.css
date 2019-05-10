@@ -1,0 +1,296 @@
+.notes  {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: skyblue;
+  color: white;
+  margin-bottom: 0;
+  font-size: 15px;
+  display: ;
+
+}
+
+
+
+.holding  {
+background-color: skyblue;
+width: 300px;
+height: 250px;
+float: right;
+margin-bottom: 1rem;
+margin-left: 1rem;
+}
+
+.logo {
+  width: 125px;
+  height: 80px;
+}
+h2  {
+  font-size: 1.9rem;
+}
+
+p, h2 {
+  color: #6D6E70;
+}
+
+h3  {
+  font-size: 1.3rem;
+
+}
+
+
+
+body  {
+margin: 0 auto;
+font-family: ;
+font-size: 17px;
+letter-spacing: 1.1px;
+background-color: #F6F6F6;
+font-family: 'Lato', sans-serif;
+}
+
+
+.accent_text  {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 1.5px;
+}
+
+.accent_colour  {
+  color: #6D9035;
+}
+
+.grey_colour  {
+  color: #6D6E70;
+}
+
+.max_width  {
+  max-width: 1100px;
+
+}
+
+
+.white_background {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 1px;
+  padding: 2rem;
+}
+
+.divider  {
+  margin: 0 auto;
+  width: 50px;
+  height: 2px;
+  background-color: #6D9035;
+}
+
+header  {
+  background-image: url(../../resources/images/crocus.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.for_border {
+  padding: .3rem;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  max-width: 500px;
+}
+
+.title  {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  padding: 2rem;
+  border: 1px solid #6D9035;
+}
+
+.alicelogo  {
+  height: 70px;
+}
+
+header  i {
+  margin-left: .4rem;
+  margin-right: .4rem;
+  padding-top: 4px;
+}
+@media only screen and (max-width: 767px) {
+  .title  {
+    max-width: 320px;
+  }
+  header  p {
+    font-size: 15px;
+  }
+  header  i {
+    margin-left: .2rem;
+    margin-right: .2srem;
+  }
+}
+
+/* ------intro section------ */
+
+@media only screen and (max-width: 767px) {
+  .circle_container  {
+    flex-direction: column!important;
+  }
+  .section_intro  .middle {
+    margin: 1rem;
+
+  }
+}
+/* .col  {
+  min-width: 250px;
+} */
+
+
+.circle {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #6D9035;
+}
+
+/* ------ image_gallery  ------ */
+
+/* .image_gallery  img {
+  max-width: 100%;
+  max-height: 100%:
+} */
+
+.row1 img, .row3 img, .row4 img, .row5 img {
+  width: 100%;
+  height: 300px;
+}
+.row2 img {
+  width: 100%;
+  height: 500px;
+}
+
+/* .row3 img {
+  width: 100%;
+  height: 300px;
+}  */
+.image_gallery  .col {
+  min-width: 300px;
+}
+
+.image_gallery  .col {
+  margin: 0.25rem 0.25rem;
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  .image_gallery  .col {
+    margin: 0.25rem 0rem;
+  }
+  .row img  {
+    height: 100%;
+  }
+}
+.image_gallery  img {
+z-index: 999;
+transition: transform .3s;
+border-radius: 1px;
+}
+.col  {
+  overflow: hidden;
+}
+.image_gallery  img:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in-out;
+
+}
+
+.image_center {
+  display: flex;
+  align-items: center;
+  background-color: #EBEBEB;
+}
+
+/*------ about us ------*/
+.about_us img {
+  max-height: 250px;
+  margin-left: 1rem;
+  border-radius: 1px;
+}
+
+.cont {
+  padding: 1rem;
+
+
+}
+
+@media only screen and (max-width: 767px) {
+.about_us p {
+  text-align: center;
+  margin-top: 1rem;
+}
+.about_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_us .holding  {
+  float: none;
+  text-align: center;
+  margin-left: 0;
+}
+}
+
+/*------  section contact ------*/
+
+.section_contact  {
+background-image: url(../../resources/images/spring.jpg);
+height: 600px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.section_contact  i {
+  margin-left: .4rem;
+  margin-right: .4rem;
+  padding-top: 4px;
+}
+@media only screen and (max-width: 767px) {
+  .title  {
+    max-width: 320px;
+  }
+  .section_contact  p {
+    font-size: 15px;
+  }
+  .section_contact  i {
+    margin-left: .2rem;
+    margin-right: .2srem;
+  }
+}
+
+/*------  section_proof ------*/
+
+.section_proof  .quote  {
+  background-color: #F6F6F6;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+
+footer  .me {
+  font-size: 0.8rem;
+}
+
+footer   {
+background-color: #ACACAC;
+
+}
+
+footer  span  {
+  color: #FFFFFF;
+}
+
+footer a {
+  margin-left: 4px;
+}
